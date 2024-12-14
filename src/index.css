@@ -1,0 +1,42 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Mr+Bedfort&family=Ruge+Boogie&display=swap');
+
+/* Tailwind imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fix Global Background for Full-Page Scrolling */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: rgb(169, 0, 12); /* Equivalent to bg-crimson */
+}
+
+/* Utility classes */
+@layer utilities {
+  .border-border {
+    border-color: #e5e7eb; /* Replace with your desired color */
+  }
+}
+
+/* Keyframe animations */
+@keyframes ripple-out-in {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(2);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+  }
+}
+
+.animate-ripple-out-in {
+  animation: ripple-out-in 1.2s ease-out forwards;
+}
