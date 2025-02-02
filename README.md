@@ -31,3 +31,7 @@
 # 🎬Sample Video   
 
 [![Watch Video](https://github.com/kanishk-rezol/Spiderman/blob/main/readme/video-thumbnail.png?raw=true)](https://github.com/kanishk-rezol/Spiderman/blob/main/readme/readme.mp4)
+
+# Not completed 
+
+>  only for mile and gwen ,it is completed only for miles and gwen use those code for the rest to complete the whole web application
